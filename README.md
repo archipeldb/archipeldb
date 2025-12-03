@@ -2,16 +2,17 @@
 	<img src="https://github.com/alumna/archipeldb/raw/master/archipeldb.svg?sanitize=true" alt="archipeldb" width="480" height="270" />
 </div>
 
-<div align="center">A light and scalable NoSQL database, able to use cheap storage to scale, including S3</div>
+<div align="center">Lightweight distributed key-value store focusing on simplicity and low resource usage</div>
 
 <br/>
 
 ## Roadmap
 
-* Production version with **no dependencies**
-* Be extremely lightweight
+* Single binary 
+* Lightweight, low resource usage
 * Scaling accordingly to the available hardware
-* Use cheap storage as its backend, including S3
-* Offer a pure javascript version
-* Offer a binary with socket connection, to be used in any language _(future release)_
-* Offer high performance through multi-threading with concurrent B+ Tree _(future release)_
+* Persistent, distributed storage
+* Easy cluster setup
+* Automatic sharding and replication for horizontal scaling
+* Automatic data rebalancing when changing cluster nodes
+* Automatic fail-over and conflict resolution
