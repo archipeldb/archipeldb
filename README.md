@@ -2,17 +2,16 @@
 	<img src="https://github.com/alumna/archipeldb/raw/master/archipeldb.svg?sanitize=true" alt="archipeldb" width="480" height="270" />
 </div>
 
-<div align="center">Lightweight distributed key-value store focusing on simplicity and low resource usage</div>
+<div align="center">Lightweight embedded distributed in-memory NoSQL database in Crystal</div>
 
 <br/>
 
 ## Roadmap
 
-* Single binary 
 * Lightweight, low resource usage
-* Scaling accordingly to the available hardware
-* Persistent, distributed storage
+* Performant distribyred in-memory data
+* Millions of ops/sec per thread
+* Async persistent storage
 * Easy cluster setup
-* Automatic sharding and replication for horizontal scaling
-* Automatic data rebalancing when changing cluster nodes
+* Placement-aware sharding, based on isles
 * Automatic fail-over and conflict resolution
