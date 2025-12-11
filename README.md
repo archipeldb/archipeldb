@@ -9,7 +9,7 @@
 ## Roadmap
 
 * Lightweight, low resource usage
-* Performant distribyred in-memory data
+* Performant distributed in-memory data
 * Millions of ops/sec per thread
 * Async persistent storage
 * Easy cluster setup
